@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header { 
+			background-color: #5460C9;
+			padding-bottom: 20px;
+			}
+
+
+h1,h2 { 
+	
+ font-family: "Jua", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+}
+
+
+p {
+  font-family: "Coming Soon", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.tab {
+ overflow: auto;
+ border: 1px #66574F;
+ background-color: #F5CEE8;
+ font-size: 70px;
+ margin-left: 40px;
+ margin-right: 40px;
+
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px 16px;
+  transition: 0.3s;
+  font-size: 50px;
+}
+	
+.tab button {
+  display: block;
+  width: 25%;
+  box-sizing: border-box;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: ghostwhite;
+}
+
+.tab button:hover {
+ background-color: #F7E4F4;
+	
+}
+
+.tab button.active {
+ background-color: #F7E4F4;
+
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  color:ghostwhite;
+  background-color: #FAD7EB;
+font-size: 25px;
+}
+
+.tabcontent p {
+	color: ghostwhite;
+	font-size: 0.85em;
+}
+
+.tabcontent h3 {
+	color:ghostwhite;
+}
+
+#wrapper{
+	margin-left:10%;
+	margin-right: 10%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #FFFFFF;
+	float:center;
+
+}	
+
+
+
+			
+
