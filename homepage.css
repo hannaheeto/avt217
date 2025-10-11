@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { 
+  font-family: "Jacquarda Bastarda 9", serif;
+  font-weight: 400;
+  font-style: normal;
+	line-height:1.6em;
+	background-color: mistyrose
+		
+}
+
+h2 {
+font-family: deseo-medium, sans-serif;
+font-style: normal;
+font-weight: 100;
+       
+}
+
+#wrapper{margin-left: 5%;
+background-color:mistyrose;
+float:left;
+
+}
+	
+
+h1 { font-family: "cofo-raffine", sans-serif; }
+
+.jacquarda-bastarda-9-regular {
+  font-family: "Jacquarda Bastarda 9", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:link {color:hotpink}
+a:hover {color:aliceblue;
+text-decoration:underline;
+}
+a:visited {color:hotpink}
+a:active {color:darksalmon}
+
+.weekly{
+	width:45%;
+	float:left;
+	margin:0 5%;
+
+}
+
+#project{
+	width:45%;
+	float:left
+}
+
+.demo { 
+font-weight: 100;
+  font-style: italic;
+	color:hotpink;
+}
