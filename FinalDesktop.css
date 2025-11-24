@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+
+
+.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  background-color: transparent;
+  font-size:30px;
+  font-family: "Jaini", system-ui;
+  font-weight: 250;
+  font-style: normal;
+
+}
+
+a:visited{background-color: none;}
+
+.redbar {
+  display: flex;
+  background-color: #891111;
+  margin-top: -10px;
+width: 100%;
+}
+
+
+.navigationmenu {
+  position: sticky;
+  display: flex;
+  align-items: center; 
+  padding: 40px 35px;
+	background-color: #891111;
+
+}
+
+.menulinks {
+  display: flex;
+  align-items: center;
+	margin-right: 20px;
+  gap: 30px; 
+	background-color: #891111;
+}
+
+.navigationmenu:focus {
+  outline: none;
+}
+
+.navigationmenu a:hover {
+  opacity: 0.7; /* optional hover effect */
+}
+
+.logo {
+ 
+align: center;
+	
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.heading1 {
+	color:#680707;
+	text-align: center;
+	margin-top:60px;
+	margin-bottom: 80px;
+	font-size:65px;
+    font-family: "New Rocker", system-ui;
+    font-weight: 350;
+    font-style: normal;
+}
+
+
+.heading2 {
+	color:#680707;
+	text-align: center;
+	margin-top:80px;
+	font-size:65px;
+    font-family: "New Rocker", system-ui;
+    font-weight: 350;
+    font-style: normal;
+}
+
+.musicvideo {
+margin-top: 60px;
+margin-bottom: 120px;
+width: auto;
+height: auto;
+
+}
+
+.heading3 {
+	color:#680707;
+	text-align: center;
+	margin-top:80px;
+	font-size:65px;
+    font-family: "New Rocker", system-ui;
+    font-weight: 350;
+    font-style: normal;
+}
+
+.tourdates {
+	color: #DCDCDC;
+	text-align: center;
+	margin-top:60px;
+	margin-bottom: 75px;
+	font-size:40px;
+    font-family: "Jaini", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.heading4 {
+	color:#680707;
+	text-align: center;
+	margin-top:80px;
+	margin-bottom: 40px;
+	font-size:65px;
+    font-family: "New Rocker", system-ui;
+    font-weight: 350;
+    font-style: normal;
+}
+
+.socialsbar {
+ position: sticky;
+ margin-top: 70px;
+ display: flex;
+ align-items: center;
+ background-color: #891111; 
+ padding: 50px 35px;
+margin-bottom: -10px;
+
+}
