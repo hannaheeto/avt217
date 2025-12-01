@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.body {
+	font-family: "Jaini", system-ui;
+	background: #000000;
+	color: deeppink;
+	line-height: 1.7;
+}
+
+
+header {
+	background: #891111; 
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+	padding: 10px;
+
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+
+.logo {
+	width: 30%;
+	display: block;
+ 
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	gap: 30px;
+	text-indent: 15px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000000;
+	font-family: "Jaini", system-ui;
+	font-weight: 600;
+	font-size: 23px;
+	transition: all 0.3s ease;
+	
+}
+.nav-icons {
+	display: flex;
+	gap: 35px;
+	margin-right: 15px;
+}
+
+.profile {
+  float: right;
+  font-size: 40px;
+	
+}
+
+
+.shopping-cart {
+  float: right;
+  font-size: 40px;
+
+
+}
+
+/* header and nav ends */
+
+.heading1 {
+	color: #680707;
+	text-align: center;
+	margin-top:195px;
+	margin-bottom: 80px;
+	font-size:65px;
+    font-family: "New Rocker", system-ui;
+    font-weight: 350;
+    font-style: normal;
+	padding-top: 50px;
+	
+}
+
+.albumcover {
+	
+	padding-top: 20px;
+	padding-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	
+	
+}
+
+.heading2 {
+	color: #680707;
+	text-align: left;
+	font-size:50px;
+    font-family: "New Rocker", system-ui;
+    font-weight: 350;
+    font-style: normal;
+	padding-left: 370px;
+	padding-top: 30px;
+	
+
+}
+
+.songtitles{
+
+    color: #680707;
+	text-align: left;
+	font-size:30px;
+    font-family: "New Rocker", system-ui;
+    font-weight: 350;
+    font-style: normal;
+	padding-left: 390px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	
+}
+
+
+ol li {
+  margin-bottom: 15px; 
+}
+
+
+
+.artist-newsletter {
+	text-align: center;
+	padding-top: 0px;
+}
+
+footer {
+ position: sticky;
+ height: 70px;
+ display: flex;
+ align-items: center;
+ background-color: #891111; 
+ margin-top: 150px;
+ padding: 50px 35px;
+
+ 
+}
+
+.Policy-info {
+	font-size:20px;
+	color: #2B0404;
+    font-family: "Jaini", system-ui;
+    font-weight: 70;
+    font-style: normal;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+
+.socials-icons {
+ float: right;
+ font-size: 40px;
+ padding-left: 1160px;
+margin-bottom: 40px;
+  
+}
